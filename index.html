@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -15,11 +15,11 @@
         <h2>Civicify</h2>
 
         <nav>
-            <a href="home">Home</a>
-            <a href="elections">Elections</a>
-            <a href="issues">Issues</a>
-            <a href="candidates">Candidates</a>
-            <a href="involved">Get Involved</a>
+            <a href="#home">Home</a>
+            <a href="#elections">Elections</a>
+            <a href="#issues">Issues</a>
+            <a href="#candidates">Candidates</a>
+            <a href="#involved">Get Involved</a>
         </nav>
     </header>
 
@@ -30,26 +30,140 @@
          <section id="home">
             <h1>Welcome to Civicify!</h1>
 
-    <p>Government without the insane guesswork and confusion.</p>
+            <p>
+                Government without the insane guesswork and confusion.
+            </p>
+        </section>
 
-    <h2>Explore Civicify</h2>
+        <!-- FEATURE CARDS -->
+        <section id ="features">
 
-    <ul>
-        <li>Find Your Elections</li>
-        <li>Understand the Issues</li>
-        <li>Compare Candidates</li>
-        <li>Get Involved</li>
-    </ul>
+            <h2>Explore Civicify</h2>
 
-    <h2>Our Mission</h2>
+            <article>
+                <h3>My Elections</h3>
+                <p>
+                    Discover upcoming elections, voting locations, and deadlines.
+                </p>
+                <a href="#elections">Explore Elections</a>
+            </article>
 
-    <p>
-        Civicify aims to make government and elections easier to understand and educate yourself about through accessible, accurate, and nonpartisan information.
-    </p>
+            <article>
+                <h3>The Issues</h3>
+                <p>
+                    Get clear, concise, nonpartisan information about the issues that affect your community the most. 
+                </p>
+                <a href="#issues">Explore Issues</a>
+            </article>
 
-    <a href="https://vote.gov">
-        Learn About Voter Registration
-    </a>
+            <article>
+                <h3>Compare Candidates</h3>
+                <p>
+                    Compare candidates and their documented positions on the biggest issues.
+                </p>
+                <a href="#candidates">View Candidates</a>
+            </article>
+
+            <article>
+                <h3>Get Involved</h3>
+                <p>
+                    Discover civic opportunities in your community.
+                </p>
+                <a href="#involved">Get Involved</a>
+            </article>
+
+        </section>
+
+        <!-- ELECTIONS SECTION -->
+        <section id="elections">
+            <h2>Find Your Elections</h2>
+            <p>
+                Find information about upcoming elections, voting locations, key dates, and how to register.
+            </p>
+
+            <a href="https://vote.gov">
+                Learn About Voter Registration
+            </a>
+        
+        <!-- LOCATION SEARCH FORM -->
+        <h3>Find Elections Near You</h3>
+
+        <p>
+            Enter your location to get started. 
+        </p>
+
+        <form>
+
+            <div>
+                <label for="state">Select Your State:</label>
+
+                <select id="state" name="state">
+                    <option value=" ">Select a State</option>
+                    <option value="WA">Washington</option>
+                    <option value="ID">Idaho</option>
+                    <option value="OR">Oregon</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="zipcode">Zip Code:</label>
+                
+                <input
+                    type="text"
+                    id="zipcode"
+                    name="zipcode"
+                    placeholder="Enter Zip Code"
+                    maxlength="5"
+                    inputmode="numeric"
+                >
+            </div>
+
+            <button type="button" disabled>
+                Find My Elections (coming soon!) 
+            </button>
+
+        </form>
+        </section>
+
+        <!-- ISSUES SECTION -->
+        <section id="issues">
+            <h2>Understand the Issues</h2>
+
+            <p>
+                Learn about the key issues that affect your community and the nation, and how they impact your vote.
+            </p>
+        </section>
+
+        <!-- CANDIDATES SECTION -->
+        <section id="candidates">
+            <h2>Compare Candidates</h2>
+
+            <p>
+                Get to know the candidates running for office, their platforms, and their stances on important issues.
+            </p>
+        </section>
+
+        <!-- GET INVOLVED SECTION -->
+        <section id="involved">
+            <h2>Get Involved</h2>
+
+            <p>
+                Find ways to participate in your community, volunteer for campaigns, and make your voice heard.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            Civicify | Making democracy more accessible &copy; 2026. All rights reserved.
+        </p>
+
+        <p>
+            An independent, nonpartisan civic education platform. We do not endorse any political party or candidate.
+        </p>
+    </footer>
 
 </body>
 </html>
