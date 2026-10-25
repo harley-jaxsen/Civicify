@@ -107,3 +107,35 @@ article a {
     color: #087f77;
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    header {
+        padding: 18px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        gap: 12px;
+        width: 100%;
+    }
+
+    main {
+        padding: 0 15px;
+    }
+
+    section {
+        padding: 25px 20px;
+    }
+
+    #home h1 {
+        font-size: 28px;
+    }
+}
+
+footer {
+    background-color: #18356b;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
