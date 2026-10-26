@@ -8,6 +8,7 @@
     <title>Civicify | Democracy Made Easy</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -94,7 +95,7 @@
             Enter your location to get started. 
         </p>
 
-        <form>
+        <form id="location-form">
 
             <div>
                 <label for="state">Select Your State:</label>
@@ -120,10 +121,12 @@
                 >
             </div>
 
-            <button type="button" disabled>
-                Find My Elections (coming soon!) 
+            <button type="submit">
+                Find My Elections 
             </button>
 
+            <p id="search-result" role="status" aria-live="polite"></p>
+            
         </form>
         </section>
 
