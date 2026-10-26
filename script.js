@@ -32,6 +32,6 @@ form.addEventListener('submit', function(event) {
     const stateName = stateSelect.options[stateSelect.selectedIndex].text;
 
     // Display the search result
-    result.textContent = " You Selected " + stateName + " with Zip Code: " + zip + ". Civicify's live election lookup is still in early stagedevelopment. Check back later!";
+    result.textContent = " You Selected " + stateName + " with Zip Code: " + zip + ". Civicify's live election lookup is still in early stage development. Check back later!";
 
 });

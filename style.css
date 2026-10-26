@@ -139,3 +139,48 @@ footer {
     text-align: center;
     padding: 25px 0;
 }
+
+/* LOCATION FORM */
+
+form{
+    max-width: 480px;
+    margin-top: 25px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #234d86;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #18365b;
+}
+
+#search-result {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #234d86;
+}
